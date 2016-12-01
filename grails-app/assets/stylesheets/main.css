@@ -1,0 +1,115 @@
+body {
+  background-color: #A5ADB8; }
+  body header #logo {
+    width: 100%;
+    height: 120px;
+    background-color: #3BB85D; }
+    body header #logo #logo-inside {
+      max-width: 1000px;
+      margin: 0 auto; }
+      body header #logo #logo-inside img {
+        margin-top: 1em; }
+      body header #logo #logo-inside #mainnotificacoes {
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        padding: 0.5em 1em;
+        font-size: 1em;
+        font-family: arial;
+        margin: 1em;
+        border-radius: 1em; }
+        body header #logo #logo-inside #mainnotificacoes .alertas {
+          position: absolute;
+          right: 0%;
+          top: 100%;
+          background-color: #FBFBFB;
+          color: #333333;
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+          list-style-type: none;
+          min-width: 150px;
+          max-width: 400px;
+          z-index: 1;
+          margin-right: -1px; }
+          body header #logo #logo-inside #mainnotificacoes .alertas a {
+            text-decoration: none;
+            color: #000000;
+            padding: 0.8em;
+            border-bottom: 1px solid #CCCCCC;
+            display: block;
+            word-wrap: break-word;
+            width: 100%; }
+          body header #logo #logo-inside #mainnotificacoes .alertas a:hover {
+            background-color: #FFFFFF; }
+          body header #logo #logo-inside #mainnotificacoes .alertas span {
+            display: block;
+            padding: 0.5em; }
+      body header #logo #logo-inside .notificacoes {
+        background-color: #e82929;
+        color: #FFFFFF; }
+      body header #logo #logo-inside .semnotificacoes {
+        background-color: #FFFFFF;
+        color: #000000; }
+  body header #menu {
+    border-top: 0px solid #FFFFFF;
+    background-color: #2e333b; }
+    body header #menu #menu-inside {
+      max-width: 1000px;
+      margin: 0 auto; }
+      body header #menu #menu-inside .menu {
+        padding: 0px; }
+        body header #menu #menu-inside .menu li {
+          display: inline;
+          float: left;
+          position: relative; }
+          body header #menu #menu-inside .menu li a {
+            padding: 1.1em 1em 1.1em 1em;
+            display: block;
+            text-align: center;
+            color: #808b9c;
+            text-decoration: none;
+            outline: 0; }
+          body header #menu #menu-inside .menu li a:hover {
+            background-color: #444c58;
+            color: #333333; }
+          body header #menu #menu-inside .menu li .ativado {
+            background-color: #FFFFFF;
+            color: #2e333b; }
+          body header #menu #menu-inside .menu li .submenu {
+            display: none; }
+        body header #menu #menu-inside .menu li:hover .submenu {
+          padding: 0px;
+          display: block;
+          position: absolute;
+          left: 0%;
+          top: 100%;
+          min-height: 50px;
+          z-index: 1;
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3); }
+          body header #menu #menu-inside .menu li:hover .submenu li a {
+            padding: 1.1em 1em 1.1em 1em;
+            min-width: 150px;
+            text-align: left;
+            background-color: #444c58; }
+          body header #menu #menu-inside .menu li:hover .submenu li a:hover {
+            background-color: #49515d; }
+        body header #menu #menu-inside .menu li:hover a {
+          background-color: #444c58;
+          color: #FFFFFF; }
+  body #content {
+    background-color: #FFFFFF;
+    min-height: 20em;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    body #content #content-inside {
+      max-width: 1000px;
+      margin: 0 auto; }
+    body #content h2 {
+      color: #2d556d; }
+    body #content h3 {
+      color: #2d556d; }
+  body footer {
+    min-height: 100px; }
+    body footer #footer-inside {
+      max-width: 1000px;
+      margin: 0 auto; }
