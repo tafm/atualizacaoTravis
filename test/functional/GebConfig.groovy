@@ -11,7 +11,7 @@ environments {
 	    driver = { new ChromeDriver() }
 	}
 
-	chrome-travis {
+	chrometravis {
 	    def env = System.getenv()
 	    System.setProperty("webdriver.chrome.driver", env.HOME + "/chromedriver/chromedriver")
 	    driver = { new ChromeDriver() }
