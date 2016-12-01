@@ -27,4 +27,4 @@ branches:
   only:
     - master
 
-script: grails -Dgeb.env=chrome-travis test-app functional:cucumber --non-interactive --stacktrace
+script: grails -Dgeb.env=chrometravis test-app functional:cucumber --non-interactive --stacktrace
